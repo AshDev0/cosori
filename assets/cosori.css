@@ -16,6 +16,7 @@
   font-display: swap;
 }
 
+
 @font-face {
   font-family: "DIN";
   src: url("//cdn.shopify.com/s/files/1/0742/6572/3189/t/2/assets/DIN2014-LightItalic.woff2?v=55422825636272252231683043904")
@@ -2217,6 +2218,334 @@ border-top: unset!important;
 
 #your-brew-section .your-brew-section .content .content-img img{
   width:100%;
+}
+
+#smart-features-grey .smart-features-grey{
+  width: 100%;
+  margin-top: 76px;
+  background-color: #f2f2f2;
+  padding: 100px 0;
+}
+
+#smart-features-grey .smart-features-grey .content{
+  width: 100%;
+  padding: 0 48px;
+}
+
+#smart-features-grey .smart-features-grey .content h2{
+  font-size: 48px;
+  letter-spacing: 0.4px;
+  line-height: 48px;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  color: #003939;
+  text-align: center;
+}
+
+#smart-features-grey .smart-features-grey .content .smart-features-items{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 56px;
+}
+
+#smart-features-grey .content .smart-features-items .smart-features-item{
+  width: calc(33.33% - 33px);
+}
+
+#smart-features-grey .content .smart-features-items .smart-features-item img{
+  width: 100%;
+  display: block;
+}
+
+#smart-features-grey .content .smart-features-items .smart-features-item h3{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  color: #003339;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+}
+
+#smart-features-grey .content .smart-features-items .smart-features-item p{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+}
+
+#smooth-pour .smooth-pour{
+  width: 100%;
+  margin-top: 100px;
+}
+
+#smooth-pour .smooth-pour .content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+#smooth-pour .smooth-pour .content .content-img{
+  width: calc(50% - 21px);
+}
+
+#smooth-pour .smooth-pour .content .content-img img{
+  width: 100%;
+  display: block;
+}
+
+#smooth-pour .smooth-pour .content .content-text{
+  width: calc(50% - 21px);
+}
+
+#smooth-pour .smooth-pour .content .content-text h2{
+  font-size: 48px;
+  letter-spacing: 0.4px;
+  line-height: 48px;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  color: #003939;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+}
+
+#smooth-pour .smooth-pour .content .content-text p{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  margin-top: 90px;
+}
+
+#smart-features .smart-features{
+  width: 100%;
+  margin-top: 76px;
+}
+
+#smart-features .smart-features .content{
+  width: 100%;
+  padding: 0 48px;
+}
+
+#smart-features .smart-features .content h2{
+  font-size: 48px;
+  letter-spacing: 0.4px;
+  line-height: 48px;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  color: #003939;
+  text-align: center;
+}
+
+#smart-features .smart-features .content .smart-features-items{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 56px;
+}
+
+#smart-features .content .smart-features-items .smart-features-item{
+  width: calc(33.33% - 33px);
+}
+
+#smart-features .content .smart-features-items .smart-features-item img{
+  width: 100%;
+  display: block;
+}
+
+#smart-features .content .smart-features-items .smart-features-item h3{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  color: #003339;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+}
+
+#smart-features .content .smart-features-items .smart-features-item p{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+}
+
+#safety-section .safety-section{
+  width: 100%;
+}
+
+#safety-section .safety-section .content{
+  width: 100%;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#safety-section .safety-section .content .content-text{
+  width: calc(50% - 28px);
+}
+
+#safety-section .safety-section .content .content-text h2{
+  font-size: 48px;
+  letter-spacing: 0.4px;
+  line-height: 48px;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  color: #003939;
+  margin: 0;
+  padding: 0;
+}
+
+#safety-section .safety-section .content .content-text p{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  font-family: DIN;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+}
+
+
+#safety-section .safety-section .content .content-img{
+  width: calc(50% - 28px);
+}
+
+#safety-section .safety-section .content .content-img img{
+  width: 100%;
+}
+
+#slider-autoplay .slider-autoplay{
+  width: 100%;
+  margin-top: 48px;
+}
+
+#slider-autoplay .slider-autoplay h2{
+  font-size: 48px;
+  letter-spacing: 0.4px;
+  line-height: 48px;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  color: #003339;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#slider-autoplay .slider-autoplay .content{
+  width: 100%;
+  margin-top: 64px;
+}
+
+#slider-autoplay .slider-autoplay .content ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+#slider-autoplay .slider-autoplay .content ul li img{
+  width: 100%;
+}
+
+#why-cosori .why-cosori{
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  margin-top: 50px;
+}
+
+#why-cosori .why-cosori h2{
+  font-size: 48px;
+  letter-spacing: 0.4px;
+  line-height: 48px;
+  font-family: DIN;
+  font-weight: 700;
+  font-style: normal;
+  color: #003339;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+#why-cosori .why-cosori .content{
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+#why-cosori .why-cosori .content .items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#why-cosori .why-cosori .content .items .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(16.66% - 20px);
+}
+
+#why-cosori .why-cosori .content .items .item img{
+  width: 60%;
+  display: block;
+}
+
+#why-cosori .why-cosori .content .items .item p{
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  font-family: DIN;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.rotate{
+  transform: rotate(180deg);
 }
 
 

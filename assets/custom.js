@@ -5,18 +5,14 @@ $(window).on("load", function () {
     slidesToShow: 1,
     slidesToScroll: 1,
   });
-});
 
-$(window).on("load", function () {
   $(".main-row").slick({
     arrows: true,
     autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
   });
-});
 
-$(window).on("load", function () {
   $(".shop-slider").slick({
     arrows: false,
     autoplay: false,
@@ -32,38 +28,28 @@ $(window).on("load", function () {
       },
     ],
   });
-});
 
-
-$(window).on("load", function () {
   $(".corori-banner-slider").slick({
     arrows: false,
     autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
   });
-});
 
-$(window).on("load", function () {
   $(".corosi-review-slider").slick({
     arrows: false,
     autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
   });
-});
 
-
-$(window).on("load", function () {
   $(".posibility-slider").slick({
     arrows: false,
     autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
   });
-});
-
-$(window).on("load",  function(){
+  
   $('.main_images').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -82,19 +68,54 @@ $('.thumb_images').slick({
   focusOnSelect: true,
   vertical:true
 });
+
+//   const accordionItems = document.querySelectorAll('.accordion-item');
+//   accordionItems.forEach((item) => {
+//   const header = item.querySelector('.accordion-header');
+//   const content = item.querySelector('.accordion-content');
+//   const svg = item.querySelector('.acc-svg');
+//   header.addEventListener('click', () => {
+//     // content.classList.toggle('active');
+//     content.style.display = content.style.display === 'none' ? 'block' : 'none';
+//     svg.style.rotate = svg.style.rotate === '0deg' ? '180deg' : '0deg';
+//   });
+// });
+
+$(".accordion-header").click(function (e) {
+  e.preventDefault();
+  $(this).toggleClass("active");  
+  // $(this).children(svg).toggleClass("active");
+  let $this = $(this);
+  if ($this.next().hasClass("show")) {
+    $this.next().removeClass("show");
+    $this.next().slideUp(350);
+  } else {
+    $this.parent().parent().find(".accordion-content").removeClass("show");
+    $this.parent().parent().find(".accordion-content").slideUp(350);
+    $this.next().toggleClass("show");
+    $this.next().slideToggle(350);
+  }
 });
 
-
-  const accordionItems = document.querySelectorAll('.accordion-item');
-  accordionItems.forEach((item) => {
-  const header = item.querySelector('.accordion-header');
-  const content = item.querySelector('.accordion-content');
-  const svg = item.querySelector('.acc-svg');
-  header.addEventListener('click', () => {
-    content.classList.toggle('active');
-    content.style.display = content.style.display === 'none' ? 'block' : 'none';
-    svg.style.rotate = svg.style.rotate === '0deg' ? '180deg' : '0deg';
+  $(".autoplay-slider").slick({
+    arrows: false,
+    autoplay: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    speed: 5000,
+    cssEase: 'linear'
   });
 });
 
+
+
+
+
+$(document).on("click", ".accordion-header", function (){
+  // let accValue = $(this).data("tab");
+  $(this).children().children("svg").toggleClass("rotate");
+  // $(".acc-svg").removeClass("rotate");
+  // $(this).children().children("svg").tClass("rotate");
+
+});
   
