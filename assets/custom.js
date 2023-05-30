@@ -84,7 +84,6 @@ $('.thumb_images').slick({
 $(".accordion-header").click(function (e) {
   e.preventDefault();
   $(this).toggleClass("active");  
-  // $(this).children(svg).toggleClass("active");
   let $this = $(this);
   if ($this.next().hasClass("show")) {
     $this.next().removeClass("show");
@@ -112,10 +111,6 @@ $(".accordion-header").click(function (e) {
 
 
 $(document).on("click", ".accordion-header", function (){
-  // let accValue = $(this).data("tab");
   $(this).children().children("svg").toggleClass("rotate");
-  // $(".acc-svg").removeClass("rotate");
-  // $(this).children().children("svg").tClass("rotate");
-
 });
   
