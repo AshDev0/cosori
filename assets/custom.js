@@ -97,4 +97,6 @@ $('.thumb_images').slick({
   });
 });
 
-  
+$(window).on("load", function () {
+  $('.other-article').wrapAll('<div class="other_grid_list" />');
+});
